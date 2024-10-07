@@ -13,7 +13,7 @@ socket.connect((IP_ADDRESS, PORT))
 otp = pyotp.TOTP(base64.b32encode(DNI.encode()).decode()).now()
 print("OTP:", otp)
 
-message = f"{NAME}#{DNI}#{otp}"
+message = f"{NAME}&{DNI}&{otp}"
 print("Message:", message)
 
 socket.send(message.encode())
