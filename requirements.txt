@@ -1,5 +1,5 @@
 dnspython==2.6.1
-filelock==3.16.0
+filelock==3.20.1
 idna==3.10
 paho-mqtt==2.1.0
 py3-validate-email==1.0.5.post2
